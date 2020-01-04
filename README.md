@@ -6,7 +6,7 @@ I know this can be optomized a little, it was a rush and honestly works perfect 
 ## why? 
 My need at the time was that my WISP had constant issues and wanted to show the degrade in service during evenings. This now is used on my fibre internet provider (actually my work) and if there is an issue I could pick this up, this is logged to mysql and then graphed by grafana and alerted to a slack channel. If like to do the same can google TIG stack (telegraf,influx,grafana) and that should give you guides. 
 
-We had internal work iperf server in remote location about 1500km from me so that helps as well testing transit and so on. Doing this on own LAN doesnt make sense to me, use a public or your own remote iperf server, give it a A record and should work if nothing fireall related etc blocks it. 
+We had internal work iperf server in remote location about 1500km from me so that helps as well testing transit and so on. Doing this on own LAN doesnt make sense to me, use a public or your own remote iperf server, give it a A record and should work if nothing firewall related etc blocks it. 
 
 ## stuff used
 
